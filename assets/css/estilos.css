@@ -1,0 +1,66 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul, ol li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+color:rgb(10, 182, 240);
+font-weight: bold;
+}
+
+.menu{
+    background-color:lightgray;
+}
+
+footer{
+    background-color:lightgray;   
+}
+
+.menu li{
+    display: inline;
+    padding-left: 12px;
+}
+
+.menu img{
+    width: 40px;
+    margin: 10px;
+}
+
+
+
+.estilo-imagem{
+    border: solid red 2px;;
+    border-radius: 60PX;
+}
+
+.banner > h1{
+    font-family: 'Mali', cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+div > p{
+text-align: center;
+color: white;
+}
+
+.banner{
+   background-image: url('../img/comidas.jpg');
+    padding-top: 185px;
+    padding-bottom: 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -16px
+}
+#receita-bolovo{
+    margin: 25px;
+}
