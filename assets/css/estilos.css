@@ -19,6 +19,10 @@ font-weight: bold;
 
 .menu{
     background-color:lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 20px;
 }
 
 footer{
@@ -27,7 +31,7 @@ footer{
 
 .menu li{
     display: inline;
-    padding-left: 12px;
+    padding-left: 80px;
 }
 
 .menu img{
@@ -63,4 +67,44 @@ color: white;
 }
 #receita-bolovo{
     margin: 25px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: row wrap;
+
+}
+.container-bolovo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.container-bolovo p{
+    color: black;
+}
+
+.container p {
+    color: black;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+footer > .container-flex > div > ol > li:first-child{
+font-weight: bold;
+}
+
+#coxinha{
+    padding: 30px;
+}
+
+.menu > ul > li:last-child{
+    font-weight: bold;  
 }
